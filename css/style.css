@@ -108,14 +108,17 @@ h1 {
 }
 
 .image {
-  background-color: #1E90FF;
   flex-grow: 2;
 }
 
 .bio {
-  background-color: #FFC0CB;
   flex-grow: 1;
   text-align:left;
+  padding-left: 40px;
+}
+
+.grey .contain .bio {
+  padding-left: 0;
 }
 
 h2 {
@@ -130,7 +133,8 @@ h2 {
 
 .grey {
   background-color: #D3D3D3;
-  padding: 80px 0;
+  padding: 100px 0;
+  height: 700px;
 }
 
 .grey .contain {
