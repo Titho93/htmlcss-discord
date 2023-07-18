@@ -257,3 +257,13 @@ li {
   background-color: #7289DA;
   color: white;
 }
+
+/* Bonus */
+.wave {
+  margin-bottom: -10px;
+}
+
+.wave-white {
+  background-color: #F5F5F5;
+  margin-bottom: -10px;
+}
