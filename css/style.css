@@ -16,19 +16,44 @@
 
 .header-up {
   padding: 20px 0;
-  background-color: #ADD8E6;
+  background-color: #245EE9;
 }
 
 bar {
   padding: 10px;
-  background-color: #DAA520;
+  background-color: #245EE9;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+ul {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  padding: 0 15px;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.login a {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: #245EE9;
+}
+
 .header-down {
-  background-color: #04008B;
+  background-color: #24e931;
 }
 
 .square {
