@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug {
+  height: 500px;
+}
+
+.contain {
+  margin: 0 auto;
+  width: 98%;
+  max-width: 1200px;
+}
+
+.header-up {
+  padding: 20px 0;
+  background-color: #ADD8E6;
+}
+
+bar {
+  padding: 10px;
+  background-color: #DAA520;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-down {
+  background-color: #04008B;
+}
+
+.square {
+  padding: 40px 120px;
+}
+
+.description {
+  background-color: #EE81EE;
+  /* da eliminare */
+  height: 420px;   
+}
+
+.white {
+  background-color: white;
+}
+
+.white .contain {
+  padding: 40px 0;
+  display: flex;
+  /* da eliminare  */
+  height: 500px;
+}
+
+.lightblue {
+  background-color: #1E90FF;
+  flex-grow: 2;
+}
+
+.pink {
+  background-color: #FFC0CB;
+  flex-grow: 1;
+}
+
+.grey {
+  background-color: #D3D3D3;
+}
+
+.grey .contain {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row-reverse;
+  /* da eliminare  */
+  height: 500px;
+}
+
+.end-main {
+  background-color: #D3D3D3;
+}
+
+.green {
+  background-color: #218B21;
+  /* da eliminare  */
+  height: 900px;
+}
+
+.end-main .contain {
+  padding: 40px 0;
+}
+
+.footer-up {
+  background-color: #23272A;
+}
+
+.footer-up .contain {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  /* da eliminare  */
+  height: 500px;
+  border-bottom: 2px solid white;
+}
+
+.red {
+  background-color: #F08080;
+  flex-grow: 2;
+}
+
+.wood-green {
+  background-color: #21B2AA;
+  flex-grow: 1;
+  border: 1px solid black;
+} 
+
+.footer-down {
+  background-color: #23272A;
+}
+
+.footer-down .contain {
+  padding-top: 20px;
+}  
+
+.end-square {
+  background-color: #7FFFD4;
+  display: flex;
+  justify-content: space-between;
+  /* da eliminare  */
+  height: 60px;
+}
+
+.logo-end {
+  background-color: #FFB6C1;
+  align-self: center;
+} 
+
+.button {
+  background-color: #FFB6C1;
+  align-self: center;
+}
