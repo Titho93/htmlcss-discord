@@ -185,11 +185,11 @@ h2 {
   padding-bottom: 30px;
   display: flex;
   /* da eliminare  */
-  height: 500px;
+  height: 650px;
   border-bottom: 2px solid white;
 }
 
-.red {
+.contact-social {
   flex-grow: 2;
 }
 
@@ -223,11 +223,20 @@ h2 {
   padding: 5px;
 }
 
-.wood-green {
-  background-color: #21B2AA;
+.list {
   flex-grow: 1;
-  border: 1px solid black;
+  padding: 0 70px;
 } 
+
+.category {
+  color: #738ADB;
+  font-size: 20px;
+}
+
+li {
+  padding: 10px 0;
+  font-size: 20px;
+}
 
 .footer-down {
   background-color: #23272A;
@@ -238,9 +247,9 @@ h2 {
 }  
 
 .end-square {
-  background-color: #7FFFD4;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   /* da eliminare  */
   height: 60px;
 }
@@ -249,3 +258,8 @@ h2 {
   background-color: #FFB6C1;
   align-self: center;
 } 
+
+.sign a {
+  background-color: #7289DA;
+  color: white;
+}
